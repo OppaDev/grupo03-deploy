@@ -1,0 +1,118 @@
+# ===================================
+# INFERNO CLUB - GIT IGNORE
+# ===================================
+
+# -----------------
+# Variables de Entorno
+# -----------------
+.env
+.env.local
+.env.*.local
+.env.backup
+
+# -----------------
+# Docker
+# -----------------
+docker-compose.override.yml
+.dockerignore
+
+# -----------------
+# Logs
+# -----------------
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# -----------------
+# Sistema Operativo
+# -----------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# -----------------
+# IDEs y Editores
+# -----------------
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# -----------------
+# Datos y Volúmenes
+# -----------------
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Backups
+*.bak
+*.backup
+backup/
+
+# Certificados y claves privadas
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+ssl/
+certificates/
+
+# -----------------
+# Facturación SRI
+# -----------------
+# Archivos XML firmados (sensibles)
+storage/app/facturas/*.xml
+storage/app/facturas/*.pdf
+
+# Claves de firma electrónica (MUY IMPORTANTE)
+*.p12
+*.pfx
+firmas/
+
+# -----------------
+# Node (si se usa)
+# -----------------
+node_modules/
+package-lock.json
+yarn.lock
+
+# -----------------
+# Otros
+# -----------------
+# Archivos comprimidos
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Documentación local
+/docs/_build/
